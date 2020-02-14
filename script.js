@@ -8,9 +8,10 @@ function giveAkanName () {
     var gender=getGender();
     var date = new Date(year +"/" + month + "/"+day);
     var dayBorn = date.getDay();
-    var akanName;
+   
     var validate = (year > 0 && (month >0 && month <=12) && (day > 0 && day <= 31));
     var validateGender = (gender !== "male" && gender !== "female");
+    var akanName;
     if (year <= 0 ) {
         alert("Invalid year");
     }
@@ -23,11 +24,11 @@ function giveAkanName () {
     else if (validate == false) {
         alert("Invalid Input!!");
     }
-    if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
+    if(gender ==="male" && year > 0 && month > 0 && month <= 12 && day > 0 && day <=31){
         akanName = maleNames[dayBorn];
     alert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
-    else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
+    else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day <=31){
         akanName = femaleNames[dayBorn];
     alert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
