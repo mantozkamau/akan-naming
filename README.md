@@ -1,21 +1,25 @@
-AKAN NAMES GENERATOR
+## AKAN NAMES GENERATOR
 A website that generates akan names, 14/02/2019
 By Muthoni George
-Description
+
+ ## Description
 This is a names generator website that asks user to input their date of birth and year of birth and then calculates 
 the day they were born and uses the day to output their names according to their gender if they were born in Ghana.
-Setup/Installation Requirements
+
+## Setup/Installation Requirements
 Clone this repository
 cd to Akan-Names
 Open index.html
-Known bugs
+
+## Known bugs
 No known bugs at the moment
 Technologies Used
 HTML
 CSS
 JavaScript
 bootstrap 
-BDD
+
+## BDD
 Enter year of Birth eg 2020
 Enter month of birth eg  1
 Enter Date of the month you were born in eg 07
@@ -30,6 +34,7 @@ year input -- 2000
 month input -- 7
 date input -- 12
 gender -- female Expected output is you were born on wednesday and your Akan Name is Akua .
-License
+
+## License
 MIT Copyright(c) 2020
 
