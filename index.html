@@ -1,4 +1,85 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,25 +99,32 @@
         children are given their first name as a 'day name' which corresponds to 
         the day in the week they were born. Here are Ghanian day names.</P>
     </div>
-    <div>
+
+<div class="form row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        
+    <div class="one">
         <label>Year</label>
-        <input type="text" id="year" placeholder="Year born" minlength="4" maxlength="4" step="1" required>
+        <input type="text" id="year" placeholder="YYYY" minlength="4" maxlength="4" step="1" required><br>
       </div>
-      <div>
-        <label>Month</label>
-        <input type="text" id="month" placeholder="Month born" required>
+      <div class="one">
+        <label>Month:</label>
+        <input type="text" id="month" placeholder="DD" required>
       </div>
-      <div>
-        <label>Day</label>
-        <input type="text" id="day" placeholder="Day born" required>
+      <div class="one">
+        <label>Day:</label>
+        <input type="text" id="day" placeholder="DD" required>
       </div>
-      <div>
-        <label>Gender</label>
+      <div class="one">
+        <label>Gender:</label>
         <input type="radio" id="gender" name="gender" value="male">Male
         <input type="radio" id="gender" name="gender" value="female">Female
         <input type="submit" onclick="giveAkanName()" value="Submit">
       </div>
       <script src="script.js"></script>
+    </div>
+    </div>
 
 </div>
 </body>

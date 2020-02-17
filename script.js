@@ -8,10 +8,10 @@ function giveAkanName () {
     var gender=getGender();
     var date = new Date(year +"/" + month + "/"+day);
     var dayBorn = date.getDay();
-   
+    var akanName;
     var validate = (year > 0 && (month >0 && month <=12) && (day > 0 && day <= 31));
     var validateGender = (gender !== "male" && gender !== "female");
-    var akanName;
+   
     if (year <= 0 ) {
         alert("Invalid year");
     }
@@ -35,9 +35,9 @@ function giveAkanName () {
 }
     function getGender(){
         var gender = document.getElementsByName("gender");
-        for(i = 0; i < gender.length; i++){
-            if(gender[i].checked){
-                return(gender[i].value)
+        for(z = 0; z < gender.length; z++){
+            if(gender[z].checked){
+                return(gender[z].value)
         }
     }
 }
