@@ -23,16 +23,17 @@ JavaScript
 bootstrap 
 
 ## BDD
-Enter year of Birth eg 2020
-Enter month of birth eg  1
-Enter Date of the month you were born in eg 07
-Select gender Input example male
-Submit. The program compares the input with the conditions set for the input,If no input,that is the field is empty,the program 
+* Enter year of Birth eg 2020
+* Enter month of birth eg  1
+* Enter Date of the month you were born in eg 07
+* Select gender Input example male
+* Submit. The program compares the input with the conditions set for the input,If no input,that is the field is empty,the program 
 executes an alert for you to enter valid details.
 0 < Date >= 31.
 0 < Month >= 12
-Gender Male or Female. Output example:  You were born on  (day you enter)  and your Akan name is  (according to the day you enter) for male .
-Output example:  You were born on (day you enter)  and your Akan name is  (according to the day you enter) for female.
+* Gender Male or Female. Output example:  You were born on  (day you enter)  and your Akan name is  (according to the day you enter) for male .
+* Output example:  You were born on (day you enter)  and your Akan name is  (according to the day you enter) for female.
+
 year input -- 2000
 month input -- 7
 date input -- 12
