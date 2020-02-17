@@ -14,7 +14,7 @@ the day they were born and uses the day to output their names according to their
 * Open index.html
 
 ## Known bugs
-No known bugs at the moment
+month of feb not accurate
 
 ## Technologies Used
 HTML
