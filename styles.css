@@ -7,3 +7,6 @@ h1{
 body{
     background-image: url("https://bit.ly/37AbNMh");
 }
+label{
+    color:cyan;
+}
