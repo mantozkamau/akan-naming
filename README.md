@@ -8,9 +8,10 @@ This is a names generator website that asks user to input their date of birth an
 the day they were born and uses the day to output their names according to their gender if they were born in Ghana.
 
 ## Setup/Installation Requirements
-Clone this repository
-cd to Akan-Names
-Open index.html
+
+* Clone this repository
+* cd to Akan-Names
+* Open index.html
 
 ## Known bugs
 No known bugs at the moment
