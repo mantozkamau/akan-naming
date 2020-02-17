@@ -5,7 +5,7 @@ By Muthoni George
 
  ## Description
 This is a names generator website that asks user to input their date of birth and year of birth and then calculates 
-the day they were born and uses the day to output their names according to their gender if they were born in Ghana.
+the day they were born and uses the day to output their names according to their gender if they were born in Ghana.[https://mantozkamau.github.io/akan-naming/]
 
 ## Setup/Installation Requirements
 
