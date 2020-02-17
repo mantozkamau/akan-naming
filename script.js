@@ -22,7 +22,7 @@ function giveAkanName () {
         alert("Date is between 1 and 31");
     }
     else if (validate == false) {
-        alert("Invalid Input!!");
+        alert("field's cant't be empty!!");
     }
     if(gender ==="male" && year > 0 && month > 0 && month <= 12 && day > 0 && day <=31){
         akanName = maleNames[dayBorn];
