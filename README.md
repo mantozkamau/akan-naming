@@ -13,7 +13,8 @@ Open index.html
 
 ## Known bugs
 No known bugs at the moment
-Technologies Used
+
+## Technologies Used
 HTML
 CSS
 JavaScript
